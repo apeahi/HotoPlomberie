@@ -21,15 +21,15 @@ class App extends Component {
         </header>
 
         <div>
+          <Navbar/>
           <Home/>
           <Description/>
           <Fb/>
-          <Footer/>
-          <Gallery/>
-          <Navbar/>
-          <Quotation/>
           <Task/>
+          <Gallery/>
           <Testimony/>
+          <Quotation/>
+          <Footer/>
         </div>
 
       </div>  
