@@ -3,9 +3,11 @@ import React, {Component} from 'react';
 class Description extends Component {
     render() {
         return (
-            <div id="description">
+         
  
             <div className="p-2">
+             <div className="col-md-12 decalTop"  id="description"> </div> 
+            <div>
             <div className="container">
               <div className="row">
                 <div className="col-md-4"></div>

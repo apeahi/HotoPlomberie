@@ -13,16 +13,16 @@ class NavbarHp extends Component {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto nav nav-pills nav-stacked">
-                        <li class="nav-item px-3 active">
+                        <li class="nav-item">
                             <a class="nav-link text-white" href="#description">Description</a>
                         </li>
-                        <li class="nav-item px-3" >
-                            <a class="nav-link text-white" href="#service">Tache</a>
+                        <li class="nav-item" >
+                            <a class="nav-link text-white" href="#service">Services</a>
                         </li>
-                        <li class="nav-item px-3">
+                        <li class="nav-item">
                             <a class="nav-link text-white" href="#gallery">Galerie</a>
                         </li>
-                        <li class="nav-item px-3">
+                        <li class="nav-item">
                             <a class="nav-link text-white" href="#testimony ">Temoignage</a>
                         </li>
                     </ul>

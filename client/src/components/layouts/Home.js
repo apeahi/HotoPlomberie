@@ -13,7 +13,7 @@ class Home extends Component {
                 <div className="col-md-12">
                   <h1 className="display-3 mb-4 text-secondary">Hoto Plomberie services</h1>
                   <a className="btn btn-lg mx-1 btn-secondary" href="tel:+68987776383">Appeler</a>
-                  <a href="#" className="btn btn-lg mx-1 btn-secondary">Demander un Devis</a>
+                  <a href="#devis" className="btn btn-lg mx-1 btn-secondary">Demander un Devis</a>
                 </div>
               </div>
             </div>

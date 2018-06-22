@@ -3,10 +3,12 @@ import React, {Component} from 'react';
 class Gallery extends Component {
     render() {
         return ( 
-          <div className="" id="gallery">
+          <div className="" >
+            
             <div className="container-fluid">
               <div className="row">
                 <div className="col-md-12 bg-secondary">
+                <div className="col-md-12 decalTop"  id="gallery"> </div>
                   <h1 className="text-center display-3 bg-secondary py-2">Galerie</h1>
                 </div>
               </div>
