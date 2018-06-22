@@ -1,34 +1,32 @@
 import React, { Component } from 'react';
 import logo from './logo.svg'; /* lien vers la page  */
 import './App.css'; /* lien vers le fichier css */ 
-import Home from './components/layouts/home';
-import Description from './components/layouts/description';
-import Fb from './components/layouts/fb';
-import Footer from './components/layouts/footer';
-import Gallery from './components/layouts/gallery';
-import Navbar from './components/layouts/navbar';
-import Quotation from './components/layouts/quotation';
-import Task from './components/layouts/task';
-import Testimony from './components/layouts/testimony';
+import Home from './components/layouts/Home';
+import Description from './components/layouts/Description';
+import SocialBar from './components/layouts/SocialBar';
+import Footer from './components/layouts/Footer';
+import Gallery from './components/layouts/Gallery';
+import Quotation from './components/layouts/Quotation';
+import TaskList from './components/layouts/TaskList';
+import Testimony from './components/layouts/Testimony';
+import NavbarHp from './components/layouts/NavbarHp';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" /> {/* Logo sur la page  */}
-          <h1 className="App-title">Hoto Plomberie</h1> {/* Titre dans la page  */}
-        </header>
 
         <div>
-          <Navbar/>
+          <NavbarHp />
+          <div data-spy="scroll" data-target="#navigation" data-offset="0">
           <Home/>
           <Description/>
-          <Fb/>
-          <Task/>
+          <SocialBar/>
+          <TaskList/>
           <Gallery/>
           <Testimony/>
-          <Quotation/>
+          <Quotation/></div>
           <Footer/>
         </div>
 
