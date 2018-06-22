@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import { Nav, NavItem } from 'react-bootstrap';
 
 
-
+ 
 class NavbarHp extends Component {
     render() {
         return ( 
