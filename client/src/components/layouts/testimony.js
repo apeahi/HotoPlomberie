@@ -10,7 +10,7 @@ class Testimony extends Component {
                     'background-size': 'cover'
                 }
             }
-            >
+            > 
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
