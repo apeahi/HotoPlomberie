@@ -1,0 +1,13 @@
+
+  
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #1e2b6f; 
+}
+
+.decalTop{
+  padding-top: 63px;
+}
+
+.testimony{
+  margin:auto;
+}

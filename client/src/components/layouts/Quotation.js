@@ -25,22 +25,22 @@ class Quotation extends Component {
 
     render() {
         return (
-            <div id="devis" className="py-5" style=    {{'background-image': 'url(asset/20180620_094159.jpg)', 'background-position':'center center'}} >
+            <div id="devis" className="py-5" style= {{'background-image': 'url(asset/20180620_094159.jpg)', 'background-position':'center center'}} >
             <div className="container">
               <div className="row">
                 <div className="col-md-6 text-white text-center align-self-center">
                   <h3 className="display-3 text-center">Devis</h3>
-                  <p className="">En cas de doute ou de projet, écrivez nous dans le formulaire mis à votre disposition à droite et nous vous répondrons dans les brefs délais.</p>
+                  <p className="">En cas de doute ou si vous prévoyez un projet, écrivez nous dans le formulaire mis à votre disposition et nous vous répondrons dans les plus brefs délais.</p>
                 </div>
                 <div className="col-md-6">
                   <div className="card">
-                    <div className="card-body p-5">
-                      <form className="">
+                    <div className="card-body p-5 text-left">
+                      <form>
                         <div className="form-group">
                           <label>Nom</label>
                           <input className="form-control" placeholder="Votre Nom" required="required"/> </div>
                         <div className="form-group">
-                          <label for="exampleInputEmail1">Email</label>
+                          <label for="exampleInputEmail1" >Email</label>
                           <input type="email" className="form-control" id="inlineFormInput" placeholder="Votre Email" required="required"/> </div>
                         <div className="form-group">
                           <label for="exampleInputEmail1">Téléphone</label>

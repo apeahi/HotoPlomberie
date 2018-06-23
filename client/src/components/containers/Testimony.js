@@ -4,8 +4,8 @@ class Testimony extends Component {
     render() {
         return (
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid d-block" src={'asset/'+ this.props.photo +'.jpg'}/>
+                <div class="col-10 text-center testimony">
+                    {/* <img class="img-fluid d-block" src={'asset/'+ this.props.photo +'.jpg'}/> */}
                     <p class=""> {this.props.temoignage} </p>
                     <div class="blockquote">
                         <p class="mb-0"> {this.props.name} </p>
