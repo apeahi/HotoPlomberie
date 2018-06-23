@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return ( 
           <div className="py-5 text-center cover" style= {{
-              'background-image': 'url(/asset/Plomberie-Longueuil.jpg)',
+              'background-image': 'url(asset/Plomberie-Longueuil.jpg)',
               'background-size': 'cover',
               'background-repeat': 'repeat'
                 }} >
