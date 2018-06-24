@@ -59,7 +59,7 @@ class Quotation extends Component {
                         <div className="form-group">
                           <label for="exampleInputEmail1">Texte</label>
                           <textarea name="message" type="text" className="form-control form-control-sm h-25 text-left" id="inlineFormInput" placeholder="Votre Texte" required="required"/> </div>
-                        <button type="submit" className="btn btn-secondary btn-block"  href="mailto:info@pingendo.com">Envoyer</button>
+                        <button type="submit" className="btn btn-secondary btn-block" >Envoyer</button>
                       </form>
                     </div>
                   </div>

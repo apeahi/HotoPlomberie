@@ -21,7 +21,7 @@ class Description extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4" data-scroll="toggle(.fromRightIn, .fromRightOut)">
-              <img className="img-fluid d-block rounded-circle mx-auto" src="asset/photo.jpg" /> </div>
+              <img className="img-fluid d-block rounded-circle mx-auto" src="asset/photo.jpg" alt="HotoPlomberie Photo Yvon Teauroa" /> </div>
             <div className="col-md-8 text-center">
               <p className="lead">HotoPlomberie Service est une entreprise familiale située à Tahiti, montée par Yvon en 2001 .
                 <br/> &nbsp; Après l'obtention de son CAP et BEP de plombier à Raiatea et Tahiti, il décida de créer sa propre société quelques années plus tard avec son épouse qui assure toute la partie administrative.
